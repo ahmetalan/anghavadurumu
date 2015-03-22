@@ -1,0 +1,8 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h5 class="panel-tite">{{convertToDate({dt: weatherDay.dt}) | date: dateFormat}}</h5>
+    </div>
+    <div class="panel-body">
+        Günlük Sıcaklık : {{convertToStandard({ daytimeTemp : weatherDay.temp.day })}} C
+    </div>
+</div>
